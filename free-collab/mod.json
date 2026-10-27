@@ -1,0 +1,38 @@
+{
+	"geode": "5.11.2",
+	"gd": {
+		"win": "*"
+	},
+	"version": "v0.2.0",
+	"id": "tunombre.freecollab",
+	"name": "Free Collab",
+	"developer": "tunombre",
+	"description": "Editor colaborativo gratis: hasta 6 personas editando el mismo nivel en tiempo real, con invitaciones y cursores.",
+	"settings": {
+		"server-host": {
+			"type": "string",
+			"name": "Servidor (host)",
+			"description": "Direccion del servidor, por ejemplo 127.0.0.1 o la que te de playit.gg",
+			"default": "127.0.0.1"
+		},
+		"server-port": {
+			"type": "int",
+			"name": "Servidor (puerto)",
+			"default": 7777,
+			"min": 1,
+			"max": 65535
+		},
+		"username": {
+			"type": "string",
+			"name": "Tu nombre",
+			"description": "Como te veran tus amigos. Sin espacios y diferente al de los demas.",
+			"default": "jugador"
+		},
+		"auto-connect": {
+			"type": "bool",
+			"name": "Conectar automaticamente",
+			"description": "Se conecta al servidor al abrir el juego y reintenta si se cae.",
+			"default": true
+		}
+	}
+}

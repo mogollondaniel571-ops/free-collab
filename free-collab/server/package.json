@@ -1,0 +1,9 @@
+{
+  "name": "free-collab-server",
+  "version": "0.1.0",
+  "description": "Servidor relay para el mod Free Collab",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
